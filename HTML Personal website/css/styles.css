@@ -1,15 +1,66 @@
 body {
     margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
 }
 
 h1 {
+    /* font-family: 'Sacramento', cursive; */
+    /* font-size: 60px; */
+    margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
-    font-size: 50px;
-    margin: 0;
+    font-size: 562.5%;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+.pro {
+    text-decoration: underline;
+    font-size: 4rem;
 }
 
 
-div {
-    text-align: center;
-    background-color: #E4F9F5;
+.top-container {
+    width: 100%;
+    background-color: powderblue;
+    /* padding-top: 100px; */
+    /* position: relative; */
+    padding-top: 100px;
+}
+
+
+
+.top-cloud {
+    position: absolute;
+    right:300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left:300px;
+}
+
+.boy {
+    width: 150px;
+}
+
+/* .mountain {
+    position: absolute;
+} */
+
+.middle-container {
+    padding-top: 100px;
+
+}
+
+.bottom-container {
+
 }
